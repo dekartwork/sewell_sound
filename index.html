@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>SEWELL Sound</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+           <div class="header__container _container">
+               <div class="header-body">
+                   <div class="header-top__row">
+                        <div class="header-top__left-block">
+                            <div class="header__mobile-menu">
+                                <input type="checkbox" id="mobile-menu__input" class="mobile-menu__input">
+                                <label for="mobile-menu__input" class="mobile-menu__label">
+                                    <ion-icon name="grid-outline" class="mobile-menu-icon"></ion-icon>
+                                </label>
+                                <div class="mobile-menu__body">
+                                    <div class="mobile-menu__main-body">
+                                        <div class="mobile-menu__logo">SEWELL</div>
+                                        <label for="mobile-menu__input" class="mobile-menu__icon-close">
+                                            <ion-icon name="close-circle-outline"></ion-icon>
+                                        </label>
+                                    </div>
+                                    <div class="mobile-menu__tabs">
+                                        <div class="mobile-menu__one-tab">
+                                            <input type="radio" class="tab-catalog-menu__input" name="tab-btn" id="tab-catalog-menu__input1" checked>
+                                            <label for="tab-catalog-menu__input1" class="tab-catalog-menu__label" id="tab-catalog-menu__label1">
+                                                <ion-icon name="grid-outline"></ion-icon>
+                                            </label>
+                                            <div class="body-tab" id="body-tab1">
+                                                <input type="checkbox" class="body-tab__upper-level-input" id="body-tab__upper-level-input1">
+                                                <label for="body-tab__upper-level-input1" class="body-tab__upper-level-label">
+                                                    Catalog
+                                                </label>
+                                                <div class="body-tab__menu" id="body-tab__menu1">
+                                                    <div class="body-tab__menu-item">
+                                                         <a href="" class="body-tab__menu-link">
+                                                            <ion-icon name="headset-outline"></ion-icon>
+                                                            Headphones
+                                                        </a>
+                                                        <a href="" class="body-tab__menu-link">
+                                                            <ion-icon name="mic-outline"></ion-icon>
+                                                            Microphones
+                                                        </a>
+                                                        <a href="" class="body-tab__menu-link">
+                                                            <ion-icon name="megaphone-outline"></ion-icon>
+                                                            Audio amplifier
+                                                        </a>
+                                                        <a href="" class="body-tab__menu-link">
+                                                            <ion-icon name="volume-high-outline"></ion-icon>
+                                                            Designer sound
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <input type="checkbox" class="body-tab__upper-level-input" id="body-tab__upper-level-input2">
+                                                <label for="body-tab__upper-level-input2" class="body-tab__upper-level-label2">
+                                                    Menu
+                                                </label>
+                                                <div class="body-tab__menu" id="body-tab__menu2">
+                                                    <div class="body-tab__menu-item">
+                                                         <a href="" class="body-tab__menu-link">
+                                                            Home
+                                                        </a>
+                                                        <a href="" class="body-tab__menu-link">
+                                                            Shop
+                                                        </a>
+                                                        <a href="" class="body-tab__menu-link">
+                                                            Page
+                                                        </a>
+                                                        <a href="" class="body-tab__menu-link">
+                                                            Blog
+                                                        </a>
+                                                        <a href="" class="body-tab__menu-link">
+                                                            About
+                                                        </a>
+                                                        <a href="" class="body-tab__menu-link">
+                                                            Contact Us
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="mobile-menu__one-tab">
+                                            <input type="radio" class="tab-catalog-menu__input" name="tab-btn" id="tab-catalog-menu__input2">
+                                            <label for="tab-catalog-menu__input2" class="tab-catalog-menu__label" id="tab-catalog-menu__label2">
+                                                <ion-icon name="person-outline"></ion-icon>
+                                            </label>
+                                            <div class="body-tab" id="body-tab2">
+                                                <div class="body-tab__menu-item">
+                                                    <a href="" class="body-tab__menu-link">
+                                                        <ion-icon name="person-outline"></ion-icon>
+                                                        Profile
+                                                   </a>
+                                                   <a href="" class="body-tab__menu-link">
+                                                        <ion-icon name="settings-outline"></ion-icon>
+                                                        Setings
+                                                   </a>
+                                                   <a href="" class="body-tab__menu-link">
+                                                        <ion-icon name="cart-outline"></ion-icon>
+                                                        My Shop
+                                                   </a>
+                                                   <a href="" class="body-tab__menu-link">
+                                                        <ion-icon name="exit-outline"></ion-icon>
+                                                        Exit
+                                                   </a>
+                                               </div>
+                                            </div>
+                                        </div>
+                                        <div class="mobile-menu__one-tab">
+                                            <input type="radio" class="tab-catalog-menu__input" name="tab-btn" id="tab-catalog-menu__input3">
+                                            <label for="tab-catalog-menu__input3" class="tab-catalog-menu__label" id="tab-catalog-menu__label3">
+                                                <ion-icon name="heart-outline"></ion-icon>
+                                                <div class="tab-catalog-menu__icon-value-wishlist">0</div>
+                                            </label>
+                                            <div class="body-tab" id="body-tab3">
+                                                <div class="body-tab__wishlist-title">
+                                                    Wishlist
+                                                </div>
+                                                <div class="body-tab__wishlist-product">
+                                                    <a href=""><img src="/img/products/acustics.png" alt=""></a>
+                                                    <div class="body-tab__wishlist-name-price__column">
+                                                        <div class="body-tab__wishlist-name">
+                                                            <a href="">
+                                                                Beyerdynamic DT 990 PRO
+                                                            </a>
+                                                        </div>
+                                                        <div class="body-tab__wishlist-price">$1120.00</div>
+                                                    </div>
+                                                    <a href=""><ion-icon name="trash-outline"></ion-icon></a>
+                                                </div>
+                                                <div class="body-tab__wishlist-product">
+                                                    <a href=""><img src="/img/products/ampl.png" alt=""></a>
+                                                    <div class="body-tab__wishlist-name-price__column">
+                                                        <div class="body-tab__wishlist-name">
+                                                            <a href="">
+                                                                Devialet Phantom Gold 4500W
+                                                            </a>
+                                                        </div>
+                                                        <div class="body-tab__wishlist-price">$4360.00</div>
+                                                    </div>
+                                                    <a href=""><ion-icon name="trash-outline"></ion-icon></a>
+                                                </div>
+                                                <a href="" class="body-tab__wishlist-btn _btn">View Wishlist</a>
+                                            </div>
+                                        </div>
+                                        <div class="mobile-menu__one-tab">
+                                            <input type="radio" class="tab-catalog-menu__input" name="tab-btn" id="tab-catalog-menu__input4">
+                                            <label for="tab-catalog-menu__input4" class="tab-catalog-menu__label" id="tab-catalog-menu__label4">
+                                                <ion-icon name="cart-outline"></ion-icon>
+                                                <div class="tab-catalog-menu__icon-value-cart">3</div>
+                                            </label>
+                                            <div class="body-tab" id="body-tab4">
+                                                <div class="body-tab__wishlist-title">
+                                                    Shoping Cart
+                                                </div>
+                                                <div class="body-tab__wishlist-product">
+                                                    <a href=""><img src="/img/products/acustics.png" alt=""></a>
+                                                    <div class="body-tab__wishlist-name-price__column">
+                                                        <div class="body-tab__wishlist-name">
+                                                            <a href="">
+                                                                Beyerdynamic DT 990 PRO
+                                                            </a>
+                                                        </div>
+                                                        <div class="body-tab__wishlist-price">$1120.00</div>
+                                                    </div>
+                                                    <a href=""><ion-icon name="trash-outline"></ion-icon></a>
+                                                </div>
+                                                <div class="body-tab__wishlist-product">
+                                                    <a href=""><img src="/img/products/acustics.png" alt=""></a>
+                                                    <div class="body-tab__wishlist-name-price__column">
+                                                        <div class="body-tab__wishlist-name">
+                                                            <a href="">
+                                                                Beyerdynamic DT 990 PRO
+                                                            </a>
+                                                        </div>
+                                                        <div class="body-tab__wishlist-price">$1120.00</div>
+                                                    </div>
+                                                    <a href=""><ion-icon name="trash-outline"></ion-icon></a>
+                                                </div>
+                                                <div class="body-tab__wishlist-product">
+                                                    <a href=""><img src="/img/products/acustics.png" alt=""></a>
+                                                    <div class="body-tab__wishlist-name-price__column">
+                                                        <div class="body-tab__wishlist-name">
+                                                            <a href="">
+                                                                Beyerdynamic DT 990 PRO
+                                                            </a>
+                                                        </div>
+                                                        <div class="body-tab__wishlist-price">$1120.00</div>
+                                                    </div>
+                                                    <a href=""><ion-icon name="trash-outline"></ion-icon></a>
+                                                </div>
+                                                <a href="" class="body-tab__wishlist-btn _btn">View Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header__logo"><a href="">SEWELL</a></div>
+                            <div class="header__burger-menu-icon">
+                                <input type="checkbox" id="input__burger-menu" class="input__burger-menu">
+                                <label for="input__burger-menu" class="label__burger-menu">
+                                    <ion-icon name="grid-outline" class="icon-burger-menu"></ion-icon>
+                                    <div class="header-top__borger-menu-title">Catalog</div>
+                                </label>
+                                <div class="hiden-menu">
+                                    <ul class="hiden-menu__list">
+                                        <li class="hiden-menu__item">
+                                            <a href="" class="hiden-menu__link">Headphones</a>
+                                        </li>
+                                        <li class="hiden-menu__item">
+                                            <a href="" class="hiden-menu__link _parent-link">Microphones</a>
+                                            <div class="hiden-menu__submenu">
+                                                <div class="hiden-menu__column1">
+                                                    <div class="hiden-menu__submenu-title">Headphones</div>
+                                                    <ul class="hiden-menu__submenu-list">
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Included with Prime</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Your Watchlist</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Collection</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Shopping Cart</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Wishlist</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Checkout</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Product 360</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="hiden-menu__column1">
+                                                    <div class="hiden-menu__submenu-title">Microphones</div>
+                                                    <ul class="hiden-menu__submenu-list">
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Included with Prime</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Your Watchlist</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Collection</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Shopping Cart</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Wishlist</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Checkout</a>
+                                                        </li>
+                                                        <li class="hiden-menu__submenu-item">
+                                                            <a href="" class="hiden-menu__submenu-link">Product 360</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="hiden-menu__submenu-banner">
+                                                    <a href=""><img src="/img/banners/banner1.jpg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="hiden-menu__item">
+                                            <a href="" class="hiden-menu__link">Audio amplifier</a>
+                                        </li>
+                                        <li class="hiden-menu__item">
+                                            <a href="" class="hiden-menu__link">Designer sound</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-top__menu">
+                            <ul class="header-top__menu-list">
+                                <li class="header-top__menu-item">
+                                    <a href="" class="header-top__menu-link">Home</a>
+                                    <div class="header-top__line-under-menu"></div>
+                                </li>
+                                <li class="header-top__menu-item">
+                                    <a href="" class="header-top__menu-link">Shop</a>
+                                    <div class="header-top__line-under-menu"></div>
+                                </li>
+                                <li class="header-top__menu-item">
+                                    <a href="" class="header-top__menu-link">Page</a>
+                                    <div class="header-top__line-under-menu"></div>
+                                </li>
+                                <li class="header-top__menu-item">
+                                    <a href="" class="header-top__menu-link">Blog</a>
+                                    <div class="header-top__line-under-menu"></div>
+                                </li>
+                                <li class="header-top__menu-item">
+                                    <a href="" class="header-top__menu-link">About</a>
+                                    <div class="header-top__line-under-menu"></div>
+                                </li>
+                                <li class="header-top__menu-item">
+                                    <a href="" class="header-top__menu-link">Contact Us</a>
+                                    <div class="header-top__line-under-menu"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-top__right-block">
+                            <div class="header-top__user">
+                                <a href=""><ion-icon name="person-outline" class="icon-header-big"></ion-icon></a>
+                                <div class="header-top__submenu-profile">
+                                    <a href="" class="submenu-profile__link">
+                                        <ion-icon name="person-outline"></ion-icon>
+                                        Profile
+                                    </a>
+                                    <a href="" class="submenu-profile__link">
+                                        <ion-icon name="settings-outline"></ion-icon>
+                                        Settings
+                                    </a>
+                                    <a href="" class="submenu-profile__link">
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                        My shop
+                                    </a>
+                                    <a href="" class="submenu-profile__link">
+                                        <ion-icon name="exit-outline"></ion-icon>
+                                        Exit
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header-top__wishlist">
+                                <input type="checkbox" id="header-top__input-wishlist" class="header-top__input-wishlist">
+                                <label for="header-top__input-wishlist" class="header-top__label-wishlist">
+                                    <ion-icon name="heart-outline" class="icon-header-big"></ion-icon>
+                                    <div class="header-top__wishlist-value">0</div>
+                                </label>
+                                <div class="header-top__wishlist-body">
+                                    <div class="header-top__wishlist-title">Wishlist</div>
+                                    <label for="header-top__input-wishlist" class="wishlist__close">
+                                        <ion-icon name="close-circle-outline"></ion-icon>
+                                    </label>
+                                    <div class="header-top__wishlist-content">
+                                        <div class="header-top__wishlist-product">
+                                            <a href=""><img src="/img/products/acustics.png" alt="" class="header-top__wishlist-img"></a>
+                                            <div class="wishlist__text-block">
+                                                <div class="wishlist__title"><a href="">Beyerdynamic DT 990 PRO</a></div>
+                                                <div class="wishlist__price">$1120.00</div>
+                                            </div>
+                                            <div class="wishlist__delete-icon">
+                                                <ion-icon name="trash-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="header-top__wishlist-product">
+                                            <a href=""><img src="/img/products/IMGproduct1.jpg" alt="" class="header-top__wishlist-img"></a>
+                                            <div class="wishlist__text-block">
+                                                <div class="wishlist__title"><a href="">Devialet Phantom Gold 4500W</a></div>
+                                                <div class="wishlist__price">$4360.00</div>
+                                            </div>
+                                            <div class="wishlist__delete-icon">
+                                                <ion-icon name="trash-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="" class="wishlist-btn _btn">View Wishlist</a>
+                                </div>
+                            </div>
+                            <div class="header-top__cart">
+                                <input type="checkbox" id="header-top__input-cart" class="header-top__input-cart">
+                                <label for="header-top__input-cart" class="header-top__label-cart">
+                                    <ion-icon name="cart-outline" class="icon-header-big"></ion-icon>
+                                    <div class="header-top__cart-value">3</div>
+                                </label>
+                                <div class="header-top__cart-body">
+                                    <div class="header-top__cart-title">Shoping Cart</div>
+                                    <label for="header-top__input-cart" class="header-top__cart-close">
+                                        <ion-icon name="close-circle-outline"></ion-icon>
+                                    </label>
+                                    <div class="header-top__cart-content">
+                                        <div class="header-top__cart-amount">You have 2 item(s) in your cart</div>
+                                        <div class="header-top__cart-product">
+                                            <a href=""><img src="/img/products/IMGproduct3.jpg" alt="" class="header-top__cart-product-img"></a>
+                                            <div class="header-top__cart-product-content">
+                                                <div class="header-top__cart-product-content__title">
+                                                    <a href="">Beyerdynamic DT 990 PRO</a>
+                                                </div>
+                                                <div class="header-top__cart-product-content__price">$880.00</div>
+                                            </div>
+                                            <a href="" class="header-top__cart-product-content__close">
+                                                <ion-icon name="trash-outline"></ion-icon>
+                                            </a>
+                                        </div>
+                                        <div class="header-top__cart-product">
+                                            <a href=""><img src="/img/products/IMGproduct4.jpg" alt="" class="header-top__cart-product-img"></a>
+                                            <div class="header-top__cart-product-content">
+                                                <div class="header-top__cart-product-content__title">
+                                                    <a href="">AKG Inline LifePRO 510S</a>
+                                                </div>
+                                                <div class="header-top__cart-product-content__price">$1320.00</div>
+                                            </div>
+                                            <a href="" class="header-top__cart-product-content__close">
+                                                <ion-icon name="trash-outline"></ion-icon>
+                                            </a>
+                                        </div>
+                                        <div class="header-top__cart-total">
+                                            <div class="header-top__cart-total-row">
+                                                <div class="cart-total-row__text">Total</div>
+                                                <div class="cart-total-row__price">$2200.00</div>
+                                            </div>
+                                            <a href="" class="cart-total-row__btn _btn">View Cart</a>
+                                            <a href="" class="cart-total-row__btn2 _btn">Check Out</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                   </div>
+                   <div class="header-bottom__row">
+                       <div class="header-bottom__text">
+                            Need Help? +1 (800) 123-45-78
+                       </div>
+                       <div class="header-bottom__right-block">
+                           <div class="header-bottom__select-currency">
+                               <select name="select-currency" id="select-currency" class="select-currency">
+                                   <option value="" class="select-option">USD</option>
+                                   <option value="" class="select-option">EUR</option>
+                                   <option value="" class="select-option">GBP</option>
+                                   <option value="" class="select-option">DKK</option>
+                                   <option value="" class="select-option">ARS</option>
+                               </select>
+                           </div>
+                           <div class="header-bottom__select-lang">
+                               <select name="select-lang" id="select-lang" class="select-lang">
+                                   <option value="">English</option>
+                                   <option value="">French</option>
+                                   <option value="">Deutsch</option>
+                                   <option value="">Spanish</option>
+                                   <option value="">Italian</option>
+                               </select>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="header__search-wrap">
+                        <div class="header__search-panel-body">
+                            <select name="" id="" class="header__search-select-category">
+                                <option value="">All Categories</option>
+                                <option value="">Headphones</option>
+                                <option value="">Microphones</option>
+                                <option value="">Audio amplifier</option>
+                                <option value="">Designer sound</option>
+                            </select>
+                            |
+                            <input type="search" class="search-panel" placeholder="Search for product...">
+                            <a href=""><img src="/img/icons/icon_search.png" alt=""></a>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </header>
+        <section class="first-screen">
+            <div class="first-screen__arrow-left _arrow-slider">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+            <div class="first-screen__arrow-right _arrow-slider">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+            <div class="first_screen__slider_body">
+                <div class="first_screen__slide">
+                    <div class="first-screen__background _ibg">
+                        <img src="/img/first-screen2.png" alt="">
+                    </div>
+                    <div class="first-screen__foreground _ibg">
+                        <img src="/img/first-screen.png" alt="">
+                    </div>
+                    <div class="first-screen__container _container">
+                        <div class="first-screen__body">
+                            <div class="first-screen__body-anim-top">
+                                 <div class="first-screen__title">Feel the space</div>
+                             </div>
+                             <div class="first-screen__body-anim-bottom">
+                                 <div class="first-screen__body-anim-bottom-2">
+                                     <div class="first-screen__subtitle">proprietary hypersonic technology</div>
+                                     <div class="first-screen__btn-row">
+                                         <div class="first-screen__btn _btn"><a href="">More</a></div>
+                                         <div class="first-screen__video-btn">
+                                                 <ion-icon name="play-circle-outline"class="first-screen__icon-play"></ion-icon>
+                                                 <p>Watch the video</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                        </div>
+                     </div>
+                </div>
+                <div class="first_screen__slide">
+                    <div class="first-screen__background _ibg">
+                        <img src="/img/first-screen2.png" alt="">
+                    </div>
+                    <div class="first-screen__foreground _ibg">
+                        <img src="/img/first-screen3.png" alt="">
+                    </div>
+                    <div class="first-screen__container _container">
+                        <div class="first-screen__body">
+                            <div class="first-screen__body-anim-top">
+                                 <div class="first-screen__title">Your choice</div>
+                             </div>
+                             <div class="first-screen__body-anim-bottom">
+                                 <div class="first-screen__body-anim-bottom-2">
+                                     <div class="first-screen__subtitle">proprietary hypersonic technology</div>
+                                     <div class="first-screen__btn-row">
+                                        <div class="first-screen__btn _btn"><a href="">More</a></div>
+                                        <div class="first-screen__video-btn">
+                                           <ion-icon name="play-circle-outline"class="first-screen__icon-play"></ion-icon>
+                                           <p>Watch the video</p>
+                                        </div>
+                                     </div>
+                                 </div>
+                             </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="mobile-first-screen">
+            <div class="mobile-first-screen__container">
+                <div class="mobile-first-screen__bg-img">
+                    <img src="/img/first-screen-mobile.png" alt="">
+                </div>
+                <div class="mobile-first-screen__content">
+                    <div class="mobile-first-screen__title">Feel the space</div>
+                    <div class="mobile-first-screen__subtitle">proprietary hypersonic technology</div>
+                    <a href="" class="mobile-first-screen__btn">More</a>
+                </div>
+            </div>
+        </section>
+        <section class="two-section">
+        <div class="two-section__container _container">
+            <div class="two-section__title">Best Series</div>
+            <div class="two-section__body">
+                <div class="two-section__product-cart">
+                    <div class="two-section__product-cart__back">
+                        <div class="two-section__img-block">
+                            <img src="/img/products/headphones1.png" alt="">
+                        </div>
+                        <div class="two-section__content-block">
+                            <div class="two-section__stickers-row">
+                                <div class="two-section__sticker1 _sticker">
+                                    <div class="two-section__sticker__prompt">
+                                        Best sound quality
+                                    </div>
+                                    <ion-icon name="trophy-outline" class="sticker-icon"></ion-icon>
+                                </div>
+                                <div class="two-section__sticker2 _sticker">
+                                    <div class="two-section__sticker__prompt">
+                                        perfect for music
+                                    </div>
+                                    <ion-icon name="musical-notes-outline" class="sticker-icon"></ion-icon>
+                                </div>
+                                <div class="two-section__sticker3 _sticker">
+                                    <div class="two-section__sticker__prompt">
+                                        video review
+                                    </div>
+                                    <ion-icon name="play-circle-outline" class="sticker-icon"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="two-section__title-review-row">
+                                <div class="two-section__title-product">Beyerdynamic DT 990 PRO</div>
+                                <div class="two-section__reviews-block">
+                                    <div class="two-section__review-stars">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star-half"></ion-icon>
+                                    </div>
+                                    <div class="two-section__subtitle-review">(236 Reviews)</div>
+                                </div>
+                            </div>
+                            <div class="two-section__price-button-row">
+                                <div class="two-section__price-product">$880</div>
+                                <a href=""class="two-section__btn-cart _btn">Cart</a>
+                                <!-- <div class="two-section__btn-cart _btn">Cart</div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="two-section__product-cart">
+                    <div class="two-section__product-cart__back">
+                        <div class="two-section__img-block">
+                            <img src="/img/products/headphones2.png" alt="">
+                        </div>
+                        <div class="two-section__content-block">
+                            <div class="two-section__stickers-row">
+                                <div class="two-section__sticker1 _sticker">
+                                    <div class="two-section__sticker__prompt">
+                                        Best sound quality
+                                    </div>
+                                    <ion-icon name="medal-outline" class="sticker-icon"></ion-icon>
+                                </div>
+                                <div class="two-section__sticker2 _sticker">
+                                    <div class="two-section__sticker__prompt">
+                                        perfect for music
+                                    </div>
+                                    <ion-icon name="musical-notes-outline" class="sticker-icon"></ion-icon>
+                                </div>
+                                <div class="two-section__sticker3 _sticker">
+                                    <div class="two-section__sticker__prompt">
+                                        video review
+                                    </div>
+                                    <ion-icon name="play-circle-outline" class="sticker-icon"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="two-section__title-review-row">
+                                <div class="two-section__title-product">AKG LifePRO 510S</div>
+                                <div class="two-section__reviews-block">
+                                    <div class="two-section__review-stars">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star-half"></ion-icon>
+                                    </div>
+                                    <div class="two-section__subtitle-review">(188 Reviews)</div>
+                                </div>
+                            </div>
+                            <div class="two-section__price-button-row">
+                                <div class="two-section__price-product">$1120.00</div>
+                                <a href=""class="two-section__btn-cart _btn">Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="two-section__product-cart">
+                    <div class="two-section__product-cart__back">
+                        <div class="two-section__img-block">
+                            <img src="/img/products/headphones3.png" alt="">
+                        </div>
+                        <div class="two-section__content-block">
+                            <div class="two-section__stickers-row">
+                                <div class="two-section__sticker1 _sticker">
+                                    <div class="two-section__sticker__prompt">
+                                        Best sound quality
+                                    </div>
+                                    <ion-icon name="medal-outline" class="sticker-icon"></ion-icon>
+                                </div>
+                                <div class="two-section__sticker2 _sticker">
+                                    <div class="two-section__sticker__prompt">
+                                        perfect for music
+                                    </div>
+                                    <ion-icon name="musical-notes-outline" class="sticker-icon"></ion-icon>
+                                </div>
+                                <div class="two-section__sticker3 _sticker">
+                                    <div class="two-section__sticker__prompt">
+                                        video review
+                                    </div>
+                                    <ion-icon name="play-circle-outline" class="sticker-icon"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="two-section__title-review-row">
+                                <div class="two-section__title-product">PIRAMID SBH 1830</div>
+                                <div class="two-section__reviews-block">
+                                    <div class="two-section__review-stars">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star-half"></ion-icon>
+                                    </div>
+                                    <div class="two-section__subtitle-review">(482 Reviews)</div>
+                                </div>
+                            </div>
+                            <div class="two-section__price-button-row">
+                                <div class="two-section__price-product">$630</div>
+                                <a href=""class="two-section__btn-cart _btn">Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="third-section">
+        <div class="third-section__banner-row">
+            <div class="third-section__left-banner"></div>
+            <div class="third-section__right-banner">
+                <img src="/img/banners/people-in-headphones 1.jpg" alt="">
+            </div>
+        </div>
+        <div class="third-section__container _container">
+            <div class="third-section__content">
+                <div class="third-section__title">You create an environment</div>
+                <div class="third-section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</div>
+                <div class="third-section__btn-row">
+                    <div class="first-screen__btn _btn"><a href="">More</a></div>
+                        <div class="first-screen__video-btn">
+                                <ion-icon name="play-circle-outline" class="first-screen__icon-play"></ion-icon>
+                                <p>Watch the video</p>
+                        </div>
+                </div>
+            </div>
+        </div>        
+        </section>
+        <section class="section-categories">
+           <div class="section-categories__container _container">
+               <div class="section-categories__body">
+                   <div class="section-categories__categories-cart">
+                       <div class="section-categories__back-wrap">
+                           <div class="section-categories__left-rect"></div>
+                           <div class="section-categories__right-rect">
+                               <img src="/img/products/headphones-for-categories.png" class="categories-cart__img" alt="">
+                               <div class="section-categories__content-row">
+                                    <div class="section-categories__title-cart">Headphones</div>
+                                    <ul class="section-categories__menu-list">
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Wireless headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Gaming Headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Studio Headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">PRO Headphones</a>
+                                        </li>
+                                    </ul>
+                                    <div class="section-categories__btn-cart _btn">More</div>
+                                </div>
+                                <div class="section-categories__icons-block">
+                                    <ion-icon name="rocket-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="card-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="help-circle-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="chatbubble-ellipses-outline" class="icon__section-categories"></ion-icon>
+                                </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="section-categories__categories-cart">
+                       <div class="section-categories__back-wrap">
+                           <div class="section-categories__left-rect"></div>
+                           <div class="section-categories__right-rect">
+                               <img src="/img/products/Microphones.png" class="categories-cart__img" alt="">
+                               <div class="section-categories__content-row">
+                                    <div class="section-categories__title-cart">Microphones</div>
+                                    <ul class="section-categories__menu-list">
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Wireless headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Gaming Headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Studio Headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">PRO Headphones</a>
+                                        </li>
+                                    </ul>
+                                    <div class="section-categories__btn-cart _btn">More</div>
+                                </div>
+                                <div class="section-categories__icons-block">
+                                    <ion-icon name="rocket-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="card-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="help-circle-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="chatbubble-ellipses-outline" class="icon__section-categories"></ion-icon>
+                                </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="section-categories__categories-cart">
+                       <div class="section-categories__back-wrap">
+                           <div class="section-categories__left-rect"></div>
+                           <div class="section-categories__right-rect">
+                               <img src="/img/products/acustics.png" class="categories-cart__img" alt="">
+                               <div class="section-categories__content-row">
+                                    <div class="section-categories__title-cart">Designer sound</div>
+                                    <ul class="section-categories__menu-list">
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Wireless headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Gaming Headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Studio Headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">PRO Headphones</a>
+                                        </li>
+                                    </ul>
+                                    <div class="section-categories__btn-cart _btn">More</div>
+                                </div>
+                                <div class="section-categories__icons-block">
+                                    <ion-icon name="rocket-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="card-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="help-circle-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="chatbubble-ellipses-outline" class="icon__section-categories"></ion-icon>
+                                </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="section-categories__categories-cart">
+                       <div class="section-categories__back-wrap">
+                           <div class="section-categories__left-rect"></div>
+                           <div class="section-categories__right-rect">
+                               <img src="/img/products/ampl.png" class="categories-cart__img" alt="">
+                               <div class="section-categories__content-row">
+                                    <div class="section-categories__title-cart">Audio amplifier</div>
+                                    <ul class="section-categories__menu-list">
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Wireless headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Gaming Headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">Studio Headphones</a>
+                                        </li>
+                                        <li class="section-categories_menu-item">
+                                            <a href="" class="section-categories__menu-link">PRO Headphones</a>
+                                        </li>
+                                    </ul>
+                                    <div class="section-categories__btn-cart _btn">More</div>
+                                </div>
+                                <div class="section-categories__icons-block">
+                                    <ion-icon name="rocket-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="card-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="help-circle-outline" class="icon__section-categories"></ion-icon>
+                                    <ion-icon name="chatbubble-ellipses-outline" class="icon__section-categories"></ion-icon>
+                                </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </section>
+        <section class="top-sale">
+           <div class="top-sale__container _container">
+            <div class="top-sale__title-row">
+                <div class="top-sale__title-row">
+                    <div class="top-sale__circle-title"></div>
+                    <div class="top-sale__title">Top Sale</div>
+                 </div>
+                <div class="top-sale__counter">
+                    <div class="top-sale__counter-title">Offer ends in:</div>
+                    <div class="top-sale__counter-background">
+                        <div class="top-sale__date-content">
+                            <div class="top-sale__number">210</div>
+                            <div class="top-sale__name">day</div>
+                        </div>
+                        <div class="top-sale__date-content">
+                            <div class="top-sale__number">12</div>
+                            <div class="top-sale__name">hrs</div>
+                        </div>
+                        <div class="top-sale__date-content">
+                            <div class="top-sale__number">37</div>
+                            <div class="top-sale__name">min</div>
+                        </div>
+                        <div class="top-sale__date-content">
+                            <div class="top-sale__number">19</div>
+                            <div class="top-sale__name">secs</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div class="top-sale__body">
+                   <div class="top-sale__product-cart">
+                       <div class="top-sale__product-cart-img">
+                           <img src="/img/products/IMGproduct1.jpg" alt="">
+                       </div>
+                       <div class="top-sale__product-cart-content">
+                            <div class="top-sale__sticker-row">
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="eye-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="git-compare-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="heart-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                            </div>
+                           <div class="top-sale__title-product-cart"><a href="">Devialet Phantom Gold 4500W</a></div>
+                           <div class="top-sale__reviews-row">
+                               <div class="top-sale__reviews-stars">
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star-half" class="icon-stars-reviews"></ion-icon>
+                               </div>
+                               <div class="top-sale__counter-reviews">(228 reviews)</div>
+                           </div>
+                           <div class="top-sale__price-row">
+                                <div class="top-sale__price">$3360.00</div>
+                                <a href="" class="top-sale__btn _btn">More</a>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="top-sale__product-cart">
+                       <div class="top-sale__product-cart-img">
+                           <img src="/img/products/IMGproduct2.jpg" alt="">
+                       </div>
+                       <div class="top-sale__product-cart-content">
+                            <div class="top-sale__sticker-row">
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="eye-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="git-compare-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="heart-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                            </div>
+                           <div class="top-sale__title-product-cart"><a href="">Devialet Phantom Gold 4500W</a></div>
+                           <div class="top-sale__reviews-row">
+                               <div class="top-sale__reviews-stars">
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star-half" class="icon-stars-reviews"></ion-icon>
+                               </div>
+                               <div class="top-sale__counter-reviews">(228 reviews)</div>
+                           </div>
+                           <div class="top-sale__price-row">
+                                <div class="top-sale__price">$3360.00</div>
+                                <a href="" class="top-sale__btn _btn">More</a>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="top-sale__product-cart">
+                       <div class="top-sale__product-cart-img">
+                           <img src="/img/products/IMGproduct3.jpg" alt="">
+                       </div>
+                       <div class="top-sale__product-cart-content">
+                            <div class="top-sale__sticker-row">
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="eye-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="git-compare-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="heart-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                            </div>
+                           <div class="top-sale__title-product-cart"><a href="">Devialet Phantom Gold 4500W</a></div>
+                           <div class="top-sale__reviews-row">
+                               <div class="top-sale__reviews-stars">
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star-half" class="icon-stars-reviews"></ion-icon>
+                               </div>
+                               <div class="top-sale__counter-reviews">(228 reviews)</div>
+                           </div>
+                           <div class="top-sale__price-row">
+                                <div class="top-sale__price">$3360.00</div>
+                                <a href="" class="top-sale__btn _btn">More</a>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="top-sale__product-cart">
+                       <div class="top-sale__product-cart-img">
+                           <img src="/img/products/IMGproduct4.jpg" alt="">
+                       </div>
+                       <div class="top-sale__product-cart-content">
+                            <div class="top-sale__sticker-row">
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="eye-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="git-compare-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                                <div class="top-sale__sticker">
+                                    <ion-icon name="heart-outline" class="icon-product-cart"></ion-icon>
+                                </div>
+                            </div>
+                           <div class="top-sale__title-product-cart"><a href="">Devialet Phantom Gold 4500W</a></div>
+                           <div class="top-sale__reviews-row">
+                               <div class="top-sale__reviews-stars">
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star" class="icon-stars-reviews"></ion-icon>
+                                <ion-icon name="star-half" class="icon-stars-reviews"></ion-icon>
+                               </div>
+                               <div class="top-sale__counter-reviews">(228 reviews)</div>
+                           </div>
+                           <div class="top-sale__price-row">
+                                <div class="top-sale__price">$3360.00</div>
+                                <a href="" class="top-sale__btn _btn">More</a>
+                            </div>
+                       </div>
+                   </div>
+
+               </div>
+           </div>
+        </section>
+        <section class="brends">
+            <div class="brands__container _container">
+                <div class="brends__row">
+                    <div class="brends__brend">
+                        <img src="/img/brends/Panasonic_logo_(Blue) 1.png" alt="">
+                    </div>
+                    <div class="brends__brend">
+                        <img src="/img/brends/Panasonic_logo_(Blue) 1-1.png" alt="">
+                    </div>
+                    <div class="brends__brend">
+                        <img src="/img/brends/Panasonic_logo_(Blue) 1-2.png" alt="">
+                    </div>
+                    <div class="brends__brend">
+                        <img src="/img/brends/Panasonic_logo_(Blue) 1-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-top__container _container">
+                <div class="footer-top__body-row">
+                    <div class="footer-top__column1">
+                        <div class="footer-top__title">Follow Us</div>
+                        <div class="footer-top__subtitle">We make consolidating, marketing and tracking your social media website easy.</div>
+                        <div class="footer-top__social-row">
+                            <ion-icon name="logo-twitter" class="social-icons-footer"></ion-icon>
+                            <ion-icon name="logo-facebook" class="social-icons-footer"></ion-icon>
+                            <ion-icon name="logo-pinterest" class="social-icons-footer"></ion-icon>
+                            <ion-icon name="logo-instagram" class="social-icons-footer"></ion-icon>
+                            <ion-icon name="logo-youtube" class="social-icons-footer"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="footer-top__column1">
+                        <div class="footer-top__title">Sign Up To Newsletter</div>
+                        <div class="footer-top__subtitle">Join 60.000+ subscribers and get a new discount coupon on every Saturday.</div>
+                        <div class="footer-top__subscribe-row">
+                            <input type="text" placeholder="Your email addres..." class="footer-top__subscribe">
+                            <button class="footer-top__subscribe-btn _btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="footer-top__column1">
+                        <div class="footer-top__title">Download App</div>
+                        <div class="footer-top__subtitle">Dukamarket App is now available on App Store & Google Play. Get it now.</div>
+                        <div class="footer-top__app-row">
+                            <a href=""><img src="/img/app/image 1.jpg" alt=""></a>
+                            <a href=""><img src="/img/app/image 2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="footer-middle__container _container">
+                    <div class="footer-middle__column-menu">
+                        <div class="footer-middle__column-title">Help & Customer</div>
+                        <ul class="footer-middle__menu-list">
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Laptop & Computer</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Speaker & Audio</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Cellphone</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Accessories</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Delivery & Dispatch</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-middle__column-menu">
+                        <div class="footer-middle__column-title">My Account</div>
+                        <ul class="footer-middle__menu-list">
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Laptop & Computer</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Speaker & Audio</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Cellphone</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Accessories</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Delivery & Dispatch</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-middle__column-menu">
+                        <div class="footer-middle__column-title">Quick Links</div>
+                        <ul class="footer-middle__menu-list">
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Laptop & Computer</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Speaker & Audio</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Cellphone</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Accessories</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Delivery & Dispatch</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-middle__column-menu">
+                        <div class="footer-middle__column-title">Customer Service</div>
+                        <ul class="footer-middle__menu-list">
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Laptop & Computer</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Speaker & Audio</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Cellphone</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Accessories</a>
+                            </li>
+                            <li class="footer-middle__menu-item">
+                                <a href="" class="footer-middle__menu-link">Delivery & Dispatch</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom__container _container">
+                    <div class="footer-bottom__text">Copyright © SEWELL. All rights reserved. Powered by <a href="">SEWELL</a></div>
+                    <img src="/img/pay-systems.png" alt="">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   <script src="/js/script.js"></script>
+</body>
+</html>
